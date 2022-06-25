@@ -71,6 +71,47 @@
     </p>
   </div>
 
+  <div class="header" id="myHeader">
+    <h1>Image Grid</h1>
+    <p>Click on the buttons to change the grid view.</p>
+    <button class="btn" onclick="one()">1</button>
+    <button class="btn active" onclick="two()">2</button>
+    <button class="btn" onclick="four()">4</button>
+  </div>
+  
+
+  <div class="images">
+    <div class="row">
+      <div class="column">
+        <img src="/images/diceman.jpg" id="images" style="width: 100%">
+        <img src="/images/very-large-flamingo.jpg" id="images" style="width: 100%">
+        <img src="/images/Inception.jpg" id="images" style="width: 100%">
+        <img src="/images/sky.jpg" id="images" style="width: 100%">
+
+      </div>
+
+      <div class="column">
+        <img src="/images/image1.jpg" id="images" style="width: 100%">
+        <img src="/images/image3.jpg" id="images" style="width: 100%">
+        <img src="/images/image4.jpg" id="images" style="width: 100%">
+        <img src="/images/image2.jpg" id="images" style="width: 100%">
+      </div>
+
+      <div class="column">
+        <img src="/images/plant.jpg" id="images" style="width: 100%">
+        <img src="/images/grass.jpg" id="images" style="width: 100%">
+        <img src="/images/towers.jpg" id="images" style="width: 100%">
+        <img src="/images/bridge.jpg" id="images" style="width: 100%">
+      </div>
+
+      <div class="column">
+        <img src="/images/plant.jpg" id="images" style="width: 100%">
+        <img src="/images/grass.jpg" id="images" style="width: 100%">
+      </div>
+
+    </div>
+  </div>
+
   <!-- The Contact Section -->
   <div class="container content padding-64" style="max-width:800px" id="contact">
     <h2 class="wide center">CONTACT</h2>
@@ -105,10 +146,12 @@
 <footer class="container padding-64 center opacity light-grey xlarge">
   <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram hover-opacity"></i></a>
   <a href="https://www.snapchat.com" target="_blank"><i class="fa fa-snapchat hover-opacity"></i></a>
+  <a href="php/index.php" target="_blank"><i class="fa fa-american-sign-language-interpreting"></i></a>
   <b>SF</b>
 </footer>
 
 <script src="script.js"></script>
+<script src="imageScript.js"></script>
 
 </body>
 </html>
